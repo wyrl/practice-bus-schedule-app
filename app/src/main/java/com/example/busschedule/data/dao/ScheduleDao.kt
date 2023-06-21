@@ -1,8 +1,8 @@
-package com.example.busschedule.dao
+package com.example.busschedule.data.dao
 
 import androidx.room.Dao
 import androidx.room.Query
-import com.example.busschedule.model.Schedule
+import com.example.busschedule.data.model.Schedule
 
 @Dao
 interface ScheduleDao {
